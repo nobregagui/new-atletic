@@ -1,0 +1,76 @@
+.statistcs {
+    padding-right: 100px;
+    padding-left: 200px;
+    padding-top: 140px;
+    background-color: #f4f4f4;
+
+}
+
+.container-about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-statistics {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.description-statistics {
+    max-width: 580px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about {
+    max-width: 500px;
+}
+
+.statistcs-number {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(172, 160, 0);
+    font-family: "Crimson Text", serif;
+}
+
+.statistcs-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #383838;
+}
+
+#contador {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(172, 160, 0);
+    font-family: "Crimson Text", serif;
+
+}
+
+.container-camp-festivals {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .statistcs {
+        padding-right: 40px;
+        padding-left: 25px;
+        padding-top: 65px;
+    }
+
+    .container-about {
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 50px;
+    }
+
+    .container-camp-festivals {
+        gap: 60px;
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+}

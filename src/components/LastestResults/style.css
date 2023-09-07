@@ -1,0 +1,140 @@
+h1 {
+    margin-top: 12px;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(172, 160, 0);
+    font-size: 35px;
+}
+
+h3 {
+    font-family: "Crimson Text", serif;
+}
+
+.description-results {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.description-results span {
+    font-weight: bold;
+    color: rgb(172, 160, 0);
+}
+
+.results {
+    display: flex;
+    gap: 50px;
+    overflow: hidden;
+    margin: 50px 90px;
+}
+
+.img-anterior {
+    position: absolute;
+    width: 44px;
+    bottom: 30%;
+    background: #c3c3c362;
+    border-radius: 50%;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.img-proximo {
+    position: absolute;
+    width: 44px;
+    right: 20px;
+    bottom: 30%;
+    background: #c3c3c362;
+    border-radius: 50%;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.latest-results {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0px 70px 200px;
+    background-color: #f5f5f5;
+    position: relative;
+
+}
+
+.container-result {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 340px;
+}
+
+.teams {
+    display: flex;
+    gap: 40px;
+}
+
+.scoreboard {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-family: "Crimson Text", serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.championship {
+    align-self: center;
+    font-family: "Crimson Text", serif;
+    font-weight: bold;
+}
+
+.date {
+    align-self: center;
+    font-family: "Crimson Text", serif;
+}
+
+@media only screen and (max-width: 1280px) {
+    .latest-results {
+        padding: 60px 0px 45px 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .results {
+        margin: 10px 79px;
+        gap: 40px;
+    }
+
+    .teams {
+        gap: 20px;
+    }
+
+    .description-results {
+        padding-right: 45px;
+    }
+
+    .img-anterior {
+        width: 40px;
+        padding: 10px;
+        bottom: 21%;
+    }
+
+    .img-proximo {
+        width: 40px;
+        padding: 10px;
+        bottom: 21%;
+    }
+
+    .logo-teams {
+        width: 70px;
+        height: 70px;
+    }
+
+    .container-result {
+        gap: 20px;
+    }
+
+    .scoreboard {
+        font-size: 25px;
+    }
+
+    .latest-results {
+        padding: 60px 0px 45px 25px;
+    }
+
+}

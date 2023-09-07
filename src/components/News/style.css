@@ -1,0 +1,52 @@
+.new {
+    padding: 25px;
+}
+
+.container-more-news {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.more-news {
+    display: flex;
+    gap: 30px;
+}
+
+.img-principal-new {
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.title-principal-new {
+    font-weight: bold;
+    font-size: 32px;
+    color: #000
+}
+
+
+.title-more-new {
+    font-size: 16px;
+}
+
+.date-new {
+    width: 100%;
+}
+
+.text-new {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 25px;
+}
+
+.description-principal-new {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.title-more-new {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}

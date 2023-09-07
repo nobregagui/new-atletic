@@ -1,0 +1,65 @@
+.container-cards-img {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.section-store {
+    padding: 25px;
+    border-top: 3px solid #000;
+    margin-top: 80px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-store {
+    max-width: 400px;
+    height: fit-content;
+    padding: 20px;
+    background: black;
+    border-radius: 8px;
+}
+
+
+.card-title {
+    margin-top: 30px;
+    color: #b3aa0d;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #fff;
+}
+
+.title-price {
+    color: #b3aa0d;
+    font-weight: bold;
+}
+
+.price {
+    color: #fff;
+}
+
+.title-store {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Geologica', sans-serif;
+    color: #000;
+}
+
+.button-store {
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(to right, #000 0%, #b3aa0d 91%);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}

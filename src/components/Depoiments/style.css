@@ -1,0 +1,117 @@
+.carousel {
+    background-image: url("/public/images/fundoTestemunhos1.png");
+    height: 630px;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.466);
+    background-position: center;
+    margin-bottom: 70px;
+    margin-top: 15px;
+}
+
+.carousel-item {
+    padding-top: 90px;
+}
+
+.logo-description {
+    border-radius: 50%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: 5px solid rgb(172, 160, 0);
+}
+
+.title-carousel {
+    text-align: center;
+    font-weight: bold;
+    color: #171A25;
+}
+
+.title-depoiment {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.title-depoiment:after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: rgb(172, 160, 0);
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 0;
+}
+
+.container-description {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+.container-description p {
+    max-width: 700px;
+    background-color: #fff;
+    color: rgb(172, 160, 0);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-weight: bold;
+    position: relative;
+    padding: 40px;
+    margin-top: 55px;
+    margin-bottom: 50px;
+    border-radius: 13px;
+}
+
+@media (max-width: 767.98px) {
+
+    .carousel-item {
+        padding-top: 15px;
+    }
+
+    .container-description p {
+        margin: 35px 70px;
+        padding: 25px;
+        text-align: center;
+        max-height: 350px;
+        overflow: scroll;
+    }
+}
+
+.carousel-control-prev-icon {
+    background-image: url("/public/images/next.png") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("/public/images/back.png") !important;
+}
+
+.container-description p::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #fff;
+    transform: translate(-50%, -50%);
+
+}
+
+.carousel-indicators li {
+    background-color: rgb(172, 160, 0) !important;
+}
+
+.title-carroussel {
+    padding-left: 25px;
+    margin-top: 95px;
+}
+
+.subtitle-carroussel {
+    padding-left: 25px;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(172, 160, 0);
+}
