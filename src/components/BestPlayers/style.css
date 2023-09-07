@@ -7,7 +7,7 @@
 .container-players {
     display: flex;
     gap: 90px;
-    overflow-x: scroll;
+    overflow-x: auto !important;
     margin: 50px 70px 60px 0px;
     padding-bottom: 55px;
 }
