@@ -1,0 +1,17 @@
+/* Section Mensage Whatsapp */
+
+.container-whatsapp {
+    background-color: #f5f5f5;
+    padding: 50px;
+    text-align: center;
+    color: #000;
+    margin: 100px 0px;
+}
+
+.container-whatsapp a {
+    border-bottom: #7a2711 dashed 4px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* End Section Mensage Whatsapp */

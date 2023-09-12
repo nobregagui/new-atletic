@@ -1,0 +1,59 @@
+.title-table {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Geologica', sans-serif;
+}
+
+.dataTables_paginate {
+    text-align: center;
+}
+
+.dataTables_paginate a {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-right: 5px;
+    background-color: #f5f5f5;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dataTables_wrapper {
+    margin-top: 50px;
+}
+
+.dataTables_paginate a.current {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.dataTables_paginate a.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+#myTable_filter {
+    margin-bottom: 10px;
+}
+
+#myTable_filter label {
+    display: flex;
+    align-items: center;
+    background-color: currentColor;
+    padding: 30px;
+    justify-content: end;
+}
+
+#myTable_filter input[type="search"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#myTable_filter input[type="search"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #aaa;
+}

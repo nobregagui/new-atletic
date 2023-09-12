@@ -1,0 +1,21 @@
+.map-nbf {
+    margin-bottom: 90px;
+}
+
+.map {
+    text-align: center;
+}
+
+.text-nbf h3 {
+    color: #7a2711;
+}
+
+.text-nbf h1 {
+    font-weight: 400;
+    color: #000;
+}
+
+.text-nbf {
+    margin-bottom: 30px;
+    padding: 25px;
+}

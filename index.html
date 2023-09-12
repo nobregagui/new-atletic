@@ -17,12 +17,14 @@
     <link rel="stylesheet" href="src/components/Depoiments/style.css" />
     <link rel="stylesheet" href="src/components/News/style.css" />
     <link rel="stylesheet" href="src/components/Store/style.css" />
+    <link rel="stylesheet" href="src/components/Sponsors/styles.css" />
+    <link rel="stylesheet" href="src/components/Footer/style.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="header">
       <div class="pie pie1" onclick="document.body.classList.remove('active')">
-        <a href="pages/test.html">
+        <a href="players.html">
           <div class="pie-color pie-color1">
             <img class="card" src="/public/images/trabalhar.png" alt="" />
           </div>
@@ -30,7 +32,7 @@
       </div>
       <div class="pie pie2" onclick="document.body.classList.remove('active')">
         <div class="pie-color pie-color2">
-          <a href="">
+          <a href="nbf.html">
             <img class="discount" src="/public/images/sobre.png" alt="" />
           </a>
         </div>
@@ -74,7 +76,7 @@
       </div>
       <div class="title">Clube Atlético Ipe</div>
       <div class="body">Sejam todos bem vindos</div>
-      <a href="" class="more-atletic">Ver mais</a>
+      <a href="sobre" class="more-atletic">Ver mais</a>
     </div>
     <div class="latest-results">
       <img
@@ -224,7 +226,7 @@
         </div> -->
       </div>
     </div>
-    <div class="best-players">
+    <div id="jogadores" class="best-players">
       <h3>NOSSO TIME</h3>
       <h1>Nossos jogadores destaques da semana</h1>
       <div class="container-players">
@@ -333,7 +335,7 @@
         </div>
       </div>
     </div>
-    <h3 class="title-carroussel">DEPOIMENTOS</h3>
+    <h3 id="depoimentos" class="title-carroussel">DEPOIMENTOS</h3>
     <h1 class="subtitle-carroussel">Depoimentos dos nossos torcedores</h1>
     <div
       id="carouselExampleIndicators"
@@ -430,7 +432,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <div class="new">
+    <div id="noticias" class="new">
       <h3>NOTÍCIAS</h3>
       <h1>Últimas atualizações</h1>
       <div class="principal">
@@ -484,7 +486,7 @@
         </div>
       </div>
     </div>
-    <div class="section-store">
+    <div id="loja" class="section-store">
       <h3>NOSSA LOJA</h3>
       <h1>Confira nossos produtos</h1>
       <div class="container-cards-img">
@@ -573,6 +575,56 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="section-sponsors">
+      <div class="group-text">
+        <h3>PATROCINADORES</h3>
+        <h1>Nosso grupo de patrocinadores</h1>
+      </div>
+      <div class="group-sponsors">
+        <img src="/public/images/logo-flash.png" alt="" />
+        <img class="image-nbf" src="/public/images/logo-nbf.png" alt="" />
+        <img src="/public/images/patroCorte.png" alt="" />
+        <img src="/public/images/logoLadoPequeno.png" alt="" />
+      </div>
+    </div>
+    <footer>
+      <img
+        class="img-footer"
+        width="180px"
+        src="/public/images/logoAtletico.png"
+        alt=""
+      />
+      <div class="section-social-midia">
+        <div class="container-footer">
+          <h1 class="title-social-midia">Institucional</h1>
+          <div class="container-infos">
+            <a class="link-footer-page" href="#sobre">Sobre</a>
+            <a class="link-footer-page" href="#container-card">Resultados</a>
+            <a class="link-footer-page" href="#depoimentos">Depoimentos</a>
+            <a class="link-footer-page" href="#jogadores">Jogadores</a>
+            <a class="link-footer-page" href="#loja">Loja</a>
+            <a class="link-footer-page" href="#noticias">Notícias</a>
+            <a class="link-footer-page" href="#minhaSecao">Estatisticas</a>
+          </div>
+        </div>
+        <div id="contato" class="container-footer">
+          <h1 class="title-social-midia">Contato</h1>
+          <div class="container-infos">
+            <span class="link-footer-page">WhatsApp: (11) 95119-2122</span>
+            <span class="link-footer-page">Telefone: (11) 95119-2122</span>
+            <span class="link-footer-page"
+              >E-mail: clubeatleticoipefutsal@gmail.com</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>
+        Clube Atlético Ipê © 2023 – Todos os Direitos Reservados. CNPJ:
+        12.224.234/0001-11
+      </p>
     </div>
   </body>
   <script

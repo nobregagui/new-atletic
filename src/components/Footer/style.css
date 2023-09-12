@@ -1,0 +1,138 @@
+.container-message {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.message {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.section-social-midia {
+    display: flex;
+    gap: 80px;
+    margin: 70px 0px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-social-midia {
+    display: flex;
+    max-height: 25px;
+    gap: 10px;
+}
+
+.section-midias {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.container-midias {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.container-footer {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-infos {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+
+.title-social-midia {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.link-footer-page {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Geologica', sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 65px 25px;
+    border-top: 3px solid #000;
+}
+
+.img-footer {
+    max-width: 350px;
+}
+
+.copyright {
+    background-image: linear-gradient(to right, #000 0%, #b3aa0d 91%);
+    padding: 30px;
+}
+
+.copyright p {
+    color: #fff;
+    font-family: 'Geologica', sans-serif;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .container-message {
+        padding: 60px;
+    }
+
+    .container-infos {
+        flex-direction: row;
+    }
+
+    .section-social-midia {
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        gap: 20px;
+        margin: 0px;
+    }
+
+    footer {
+        flex-direction: row;
+    }
+
+    .section-midias {
+        flex-direction: row;
+        width: auto;
+        height: 100%;
+    }
+
+    .title-social-midia {
+        max-width: 135px;
+    }
+
+    .container-footer {
+        flex-direction: row;
+        width: auto;
+        height: 100%;
+    }
+
+    .container-infos {
+        flex-direction: column;
+    }
+}

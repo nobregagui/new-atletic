@@ -1,0 +1,22 @@
+.about {
+    padding: 25px;
+    margin-top: 70px;
+}
+
+.text-about h3 {
+    color: #7a2711;
+}
+
+.text-about h1 {
+    font-weight: 400;
+    color: #000;
+}
+
+.about img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.text-about {
+    margin-bottom: 30px;
+}

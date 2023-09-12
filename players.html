@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Incluir o CSS do Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/src/components/HeaderPlayers/style.css" />
+    <link rel="stylesheet" href="/src/components/Table/style.css" />
+    <link rel="stylesheet" href="/src/components/Footer/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="pie pie1" onclick="document.body.classList.remove('active')">
+        <a href="players.html">
+          <div class="pie-color pie-color1">
+            <img class="card" src="/public/images/trabalhar.png" alt="" />
+          </div>
+        </a>
+      </div>
+      <div class="pie pie2" onclick="document.body.classList.remove('active')">
+        <div class="pie-color pie-color2">
+          <a href="nbf.html">
+            <img class="discount" src="/public/images/sobre.png" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="pie pie3" onclick="document.body.classList.remove('active')">
+        <div class="pie-color pie-color3">
+          <a href="index.html">
+            <img class="cart" src="/public/images/pagina-inicial.png" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="menu" onclick="document.body.classList.toggle('active')">
+        <svg
+          class="hamburger"
+          xmlns="http://www.w3.org/2000/svg"
+          width="100"
+          height="100"
+          viewBox="0 0 100 100"
+        >
+          <g
+            fill="none"
+            stroke="#000"
+            stroke-width="7.999"
+            stroke-linecap="round"
+          >
+            <path d="M 55,26.000284 L 24.056276,25.999716" />
+            <path d="M 24.056276,49.999716 L 75.943724,50.000284" />
+            <path d="M 45,73.999716 L 75.943724,74.000284" />
+            <path d="M 75.943724,26.000284 L 45,25.999716" />
+            <path d="M 24.056276,73.999716 L 55,74.000284" />
+          </g>
+        </svg>
+      </div>
+      <div class="title">Jogadores do Clube Atlético Ipe</div>
+      <div class="body">Confira a história dos jogadores</div>
+      <a href="jogadores" class="more-atletic">Ver mais</a>
+    </div>
+    <div id="jogadores" class="container-player">
+      <h3 class="title-player">JOGADORES</h3>
+      <h1 class="subtitle-player">Atletas do Atlético Ipe</h1>
+      <div class="wrapper-player">
+        <img src="/public/images/leo.jpeg" class="" alt="" />
+        <div class="text-player">
+          <div>
+            <p class="title-players">Jogador:</p>
+            <h2>Leonardo Silva</h2>
+          </div>
+          <div class="description-player">
+            <p class="title-players">Sobre o atleta:</p>
+            <h3>
+              Atleta bastante expêriente e rodado, Léo chega no atlético para
+              somar, sendo um ala bem ofensivo e que está sempre guardando o seu
+              gol. Um atleta destro, mas que também bate muito bem com a
+              esquerda!
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper-player">
+        <img src="/public/images/kalil.jpeg" class="" alt="" />
+        <div class="text-player">
+          <div>
+            <p class="title-players">Jogador:</p>
+            <h2>Kalil Araújo</h2>
+          </div>
+          <div class="description-player">
+            <p class="title-players">Sobre o atleta:</p>
+            <h3>
+              Kalil Araújo, um atleta experiente e respeitado, traz sua
+              habilidade e visão de jogo para reforçar o nosso time no Atlético
+              Ipê. Como fixo, Kalil é conhecido por sua solidez defensiva e pela
+              capacidade de construir jogadas a partir de trás. Com um passe
+              preciso, ele é uma peça fundamental na transição da defesa para o
+              ataque.
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper-player">
+        <img src="/public/images/digo.jpeg" class="" alt="" />
+        <div class="text-player">
+          <div>
+            <p class="title-players">Jogador:</p>
+            <h2>Rodrigo (Digo)</h2>
+          </div>
+          <div class="description-player">
+            <p class="title-players">Sobre o atleta:</p>
+            <h3>
+              Digo, um líder nato e destro habilidoso, é um dos pilares do nosso
+              time no Atlético Ipê. Atuando como fixo, ele domina a quadra com
+              maestria, tanto na defesa quanto no ataque. Sua presença em campo
+              é sinônimo de experiência e liderança, motivando todos ao seu
+              redor a darem o melhor de si.
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper-player">
+        <img src="/public/images/thiago.jpeg" class="" alt="" />
+        <div class="text-player">
+          <div>
+            <p class="title-players">Jogador:</p>
+            <h2>Thiago Silva</h2>
+          </div>
+          <div class="description-player">
+            <p class="title-players">Sobre o atleta:</p>
+            <h3>
+              Thiago, o nosso capitão e artilheiro! Esse atacante nato é um
+              verdadeiro líder em campo. Com um instinto de artilheiro afiado,
+              Thiago sempre parece estar no lugar certo, na hora certa, para
+              balançar as redes adversárias. Sua habilidade de finalização é de
+              encher os olhos, e ele é o pesadelo dos goleiros adversários.
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper-player">
+        <img src="/public/images/renan.jpeg" class="" alt="" />
+        <div class="text-player">
+          <div>
+            <p class="title-players">Jogador:</p>
+            <h2>Renan</h2>
+          </div>
+          <div class="description-player">
+            <p class="title-players">Sobre o atleta:</p>
+            <h3>
+              Renan, o mestre das surpresas! Este jogador experiente sabe
+              exatamente como jogar com as expectativas. Ele pode parecer
+              "apagado" no jogo, mas é tudo parte da sua estratégia. Quando
+              menos esperamos, Renan nos presenteia com dribles incríveis e gols
+              espetaculares. Sua capacidade de surpreender os adversários é
+              verdadeiramente impressionante.
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper-player">
+        <img src="/public/images/andre.jpeg" class="" alt="" />
+        <div class="text-player">
+          <div>
+            <p class="title-players">Jogador:</p>
+            <h2>André</h2>
+          </div>
+          <div class="description-player">
+            <p class="title-players">Sobre o atleta:</p>
+            <h3>
+              André, o muro impenetrável! Este goleiro é conhecido por sua
+              incrível habilidade de bloquear qualquer tentativa de gol. Com
+              reflexos rápidos e uma agilidade excepcional, André faz do gol uma
+              fortaleza inexpugnável. Os adversários podem tentar, mas
+              encontrarão em André um guardião determinado a manter sua rede
+              inviolada
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper-player">
+        <img src="/public/images/matehus.jpeg" class="" alt="" />
+        <div class="text-player">
+          <div>
+            <p class="title-players">Jogador:</p>
+            <h2>Matheus</h2>
+          </div>
+          <div class="description-player">
+            <p class="title-players">Sobre o atleta:</p>
+            <h3>
+              Matheus, o pivo artilheiro! Ele tem um talento incrível para
+              encontrar o caminho para o gol e raramente deixa escapar uma
+              oportunidade. Com sua habilidade de pivô, ele não apenas marca,
+              mas também cria oportunidades para seus colegas de equipe.
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper-player">
+        <img src="/public/images/edson.jpeg" class="" alt="" />
+        <div class="text-player">
+          <div>
+            <p class="title-players">Jogador:</p>
+            <h2>Edson</h2>
+          </div>
+          <div class="description-player">
+            <p class="title-players">Sobre o atleta:</p>
+            <h3>
+              Edson, o marcador implacável! Ele não dá um centímetro de espaço
+              para seus adversários. Com sua determinação e habilidades
+              defensivas sólidas, Edson é como uma sombra que segue seus
+              oponentes por todo o campo. Ele não recua até ter certeza de que a
+              bola está sob controle e fora de perigo.
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper-player">
+        <img src="/public/images/diogo.jpeg" class="" alt="" />
+        <div class="text-player">
+          <div>
+            <p class="title-players">Jogador:</p>
+            <h2>Diogo</h2>
+          </div>
+          <div class="description-player">
+            <p class="title-players">Sobre o atleta:</p>
+            <h3>
+              Diogo, o canhoto fortão! Ele é a força bruta do nosso time, e
+              ninguém quer ficar entre ele e a bola. Diogo é conhecido por sua
+              habilidade de manter a posse da bola e enfrentar os oponentes com
+              confiança. Com seu poderoso chute canhoto, ele é uma ameaça
+              constante ao gol adversário.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-aos="zoom-in-right" id="estatisticas" class="section-statistic">
+      <h3 class="title-player">JOGADORES</h3>
+      <h1 class="subtitle-player">Atletas do Atlético Ipe</h1>
+      <table id="myTable" class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Jogos</th>
+            <th>Asst.</th>
+            <th>Gols</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Thiago</td>
+            <td>28</td>
+            <td>17</td>
+            <td>29</td>
+          </tr>
+          <tr>
+            <td>Kalil</td>
+            <td>25</td>
+            <td>19</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>Léo</td>
+            <td>27</td>
+            <td>14</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td>Geovane</td>
+            <td>17</td>
+            <td>4</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Matheus F.</td>
+            <td>17</td>
+            <td>3</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Babu</td>
+            <td>16</td>
+            <td>2</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Renan</td>
+            <td>16</td>
+            <td>2</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>Digo</td>
+            <td>26</td>
+            <td>6</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>Lucas</td>
+            <td>9</td>
+            <td>5</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>Édson</td>
+            <td>12</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Leli</td>
+            <td>4</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Diogo</td>
+            <td>9</td>
+            <td>4</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Pacca</td>
+            <td>18</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Gui</td>
+            <td>12</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>André</td>
+            <td>33</td>
+            <td>8</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Kevin</td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Alison</td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Gabriel</td>
+            <td>11</td>
+            <td>9</td>
+            <td>8</td>
+          </tr>
+          <!-- Mais linhas da tabela -->
+        </tbody>
+      </table>
+      <div id="tableInfo" class="text-center"></div>
+      <nav>
+        <ul id="pagination" class="pagination justify-content-center"></ul>
+      </nav>
+    </div>
+    <footer>
+      <img
+        class="img-footer"
+        width="180px"
+        src="/public/images/logoAtletico.png"
+        alt=""
+      />
+      <div class="section-social-midia">
+        <div class="container-footer">
+          <h1 class="title-social-midia">Institucional</h1>
+          <div class="container-infos">
+            <a class="link-footer-page" href="#jogadores">Jogadores</a>
+            <a class="link-footer-page" href="#estatisticas">Estatisticas</a>
+          </div>
+        </div>
+        <div id="contato" class="container-footer">
+          <h1 class="title-social-midia">Contato</h1>
+          <div class="container-infos">
+            <span class="link-footer-page">WhatsApp: (11) 95119-2122</span>
+            <span class="link-footer-page">Telefone: (11) 95119-2122</span>
+            <span class="link-footer-page"
+              >E-mail: clubeatleticoipefutsal@gmail.com</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>
+        Clube Atlético Ipê © 2023 – Todos os Direitos Reservados. CNPJ:
+        12.224.234/0001-11
+      </p>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.11.2/js/jquery.dataTables.min.js"></script>
+  <script src="/src/js/script.js"></script>
+</html>

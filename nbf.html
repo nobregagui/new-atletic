@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Incluir o CSS do Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/src/components/HeaderNbf/style.css" />
+    <link rel="stylesheet" href="/src/components/Table/style.css" />
+    <link rel="stylesheet" href="/src/components/Footer/style.css" />
+    <link rel="stylesheet" href="/src/components/BenefitsNbf/style.css" />
+    <link rel="stylesheet" href="/src/components/AboutNbf/style.css" />
+    <link rel="stylesheet" href="/src/components/ProductsNbf/style.css" />
+    <link rel="stylesheet" href="/src/components/WhatsappNbf/style.css" />
+    <link rel="stylesheet" href="/src/components/MapNbf/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="pie pie1" onclick="document.body.classList.remove('active')">
+        <a href="players.html">
+          <div class="pie-color pie-color1">
+            <img class="card" src="/public/images/trabalhar.png" alt="" />
+          </div>
+        </a>
+      </div>
+      <div class="pie pie2" onclick="document.body.classList.remove('active')">
+        <div class="pie-color pie-color2">
+          <a href="nbf.html">
+            <img class="discount" src="/public/images/sobre.png" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="pie pie3" onclick="document.body.classList.remove('active')">
+        <div class="pie-color pie-color3">
+          <a href="">
+            <img class="cart" src="/public/images/pagina-inicial.png" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="menu" onclick="document.body.classList.toggle('active')">
+        <svg
+          class="hamburger"
+          xmlns="http://www.w3.org/2000/svg"
+          width="100"
+          height="100"
+          viewBox="0 0 100 100"
+        >
+          <g
+            fill="none"
+            stroke="#000"
+            stroke-width="7.999"
+            stroke-linecap="round"
+          >
+            <path d="M 55,26.000284 L 24.056276,25.999716" />
+            <path d="M 24.056276,49.999716 L 75.943724,50.000284" />
+            <path d="M 45,73.999716 L 75.943724,74.000284" />
+            <path d="M 75.943724,26.000284 L 45,25.999716" />
+            <path d="M 24.056276,73.999716 L 55,74.000284" />
+          </g>
+        </svg>
+      </div>
+      <div class="image-logo">
+        <img src="/public/images/logoNbf.png" alt="" />
+      </div>
+      <div class="title">PATROCINADOR MASTER</div>
+      <div class="body">Confira a NBF, nossa patrocinadora master</div>
+      <a href="#sobre" class="more-atletic">Veja mais</a>
+    </div>
+    <div id="sobre" class="about">
+      <div class="text-about">
+        <h3>SOBRE</h3>
+        <h1>Sobre a NBF Distribuidora de Aço</h1>
+      </div>
+      <img src="/public/images/sobre-nos.png" alt="" />
+      <p class="description-about">
+        Há mais de nove anos trabalhando com ferro e aço para indústria e
+        serralheria. A NBF TUBOS evoluiu e consequentemente o portfólio de
+        produtos ligados ao mercado do aço cresceu, com isso em 2021 nos
+        tornamos NBF Distribuidora de Aço!
+      </p>
+    </div>
+    <div id="beneficios" class="benefits">
+      <div class="text-benefits">
+        <h3>BENEFÍCIOS</h3>
+        <h1>O que a NBF oferece</h1>
+      </div>
+      <p class="description-benefits">
+        Com produtos de ótima qualidade e profissionais altamente qualificados,
+        buscamos atender as necessidades de nossos clientes e parceiros com
+        qualidade, agilidade e eficácia. Dispomos também de uma equipe de
+        atendimento totalmente personalizada, lhe auxiliando desde a compra até
+        o pós-venda.
+        <br />
+        <br />
+        A NBF Distrubuidora busca oferecer uma ótima experiência em seus
+        serviços e produtos, dispondo de materiais de alta qualidade e
+        desempenho, além de uma equipe altamente especializada tanto na produção
+        e fabricação de produtos. Saiba que você terá um atendimento totalmente
+        personalizado que lhe auxiliará desde a compra até o pós-venda.
+      </p>
+    </div>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/public/images/banner.png"
+            class="d-block w-100"
+            alt="/public/images/banner.png"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/public/images/banner2.png"
+            class="d-block w-100"
+            alt="/public/images/banner.png"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/public/images/banner3.png"
+            class="d-block w-100"
+            alt="/public/images/banner.png"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section id="projects">
+      <div class="projects container">
+        <div class="text-about">
+          <h3>PRODUTOS</h3>
+          <h1>Produtos em destaque</h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h2>Chapa</h2>
+              <p>
+                Nossas chapas são fabricadas com precisão e qualidade, adequadas
+                para diversas aplicações industriais e de construção. Oferecemos
+                uma variedade de espessuras e tamanhos para atender às
+                especificações do seu projeto.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="/public/images/chapas.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h2>Tubos</h2>
+              <p>
+                Nossos tubos de aço são ideais para uma variedade de aplicações,
+                desde sistemas de dutos até projetos de encanamento. Eles são
+                fabricados com precisão para garantir resistência e
+                durabilidade.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="/public/images/tubos.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h2>Vigas</h2>
+              <p>
+                As vigas desempenham um papel crucial em estruturas de
+                construção e suporte. Na NBF, você encontrará vigas de aço de
+                alta resistência, projetadas para proporcionar durabilidade e
+                estabilidade em suas construções.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="/public/images/vigas.png" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section-whatsapp">
+      <div class="container-whatsapp">
+        <h1>
+          Me chame no Whatsapp, estou a disposição!
+          <a href="https://wa.me/5511981425377" target="_blank"
+            ><span>(11)98142-5377</span></a
+          >
+        </h1>
+      </div>
+    </section>
+    <div class="map-nbf">
+      <div class="text-nbf">
+        <h3>BENEFÍCIOS</h3>
+        <h1>O que a NBF oferece</h1>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.344181574618!2d-46.37900112369334!3d-23.484109358760545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce634470ed47d5%3A0x516e3a144d9550fa!2sR.%20Mar%C3%ADlia%2C%2096%20-%20Vila%20Bartira%2C%20Itaquaquecetuba%20-%20SP%2C%2008577-560!5e0!3m2!1spt-BR!2sbr!4v1694499767772!5m2!1spt-BR!2sbr"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+    <footer>
+      <img
+        class="img-footer"
+        width="180px"
+        src="/public/images/logoAtletico.png"
+        alt=""
+      />
+      <div class="section-social-midia">
+        <div class="container-footer">
+          <h1 class="title-social-midia">Institucional</h1>
+          <div class="container-infos">
+            <a class="link-footer-page" href="#sobre">Sobre</a>
+            <a class="link-footer-page" href="#projects">Produtos</a>
+            <a class="link-footer-page" href="#beneficios">Benefícios</a>
+          </div>
+        </div>
+        <div id="contato" class="container-footer">
+          <h1 class="title-social-midia">Contato</h1>
+          <div class="container-infos">
+            <span class="link-footer-page">WhatsApp: (11) 95119-2122</span>
+            <span class="link-footer-page">Telefone: (11) 95119-2122</span>
+            <span class="link-footer-page"
+              >E-mail: clubeatleticoipefutsal@gmail.com</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>
+        Clube Atlético Ipê © 2023 – Todos os Direitos Reservados. CNPJ:
+        12.224.234/0001-11
+      </p>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"
+  ></script>
+</html>
