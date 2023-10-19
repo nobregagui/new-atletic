@@ -19,10 +19,16 @@
 
 .title-player {
     color: rgb(172, 160, 0);
+    padding: 25px;
 }
 
 .subtitle-player {
     color: #000;
+    padding: 25px;
+}
+
+.table-players {
+    padding: 10px;
 }
 
 .title-players {
@@ -81,6 +87,19 @@
     font-size: 18px;
 }
 
-.section-statistic {
+/* .section-statistic {
     padding: 25px;
+} */
+
+@media screen and (min-width: 767px) {
+    .players {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .wrapper-player {
+        max-width: 30%;
+    }
 }
