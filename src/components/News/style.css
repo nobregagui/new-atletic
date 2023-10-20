@@ -50,3 +50,33 @@
     font-weight: bold;
     color: #000;
 }
+
+@media only screen and (min-width: 768px) {
+    .img-principal-new {
+        width: 40%;
+        height: 100%;
+    }
+
+    .container-more-news {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .text-new {
+        text-align: center;
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #noticias h3 {
+        text-align: center;
+    }
+    #noticias h1 {
+        text-align: center;
+    }
+}

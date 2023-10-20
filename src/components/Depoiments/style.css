@@ -115,3 +115,15 @@
     font-family: "Work Sans", sans-serif;
     color: rgb(172, 160, 0);
 }
+
+@media only screen and (min-width: 768px) {
+    .title-carroussel {
+        padding-left: 200px;
+    }
+
+    .subtitle-carroussel {
+        padding-left: 200px;
+        margin-bottom: 40px;
+    }
+    
+}
